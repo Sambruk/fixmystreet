@@ -221,4 +221,9 @@ sub path_to_email_templates {
     return $paths;
 }
 
+# https://github.com/mysociety/fixmystreet/issues/5595#issuecomment-3157730917
+sub fetch_area_children {
+    return {};
+}
+
 1;
