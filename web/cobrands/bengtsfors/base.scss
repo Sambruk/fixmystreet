@@ -14,11 +14,11 @@
     // $bg-bottom, $border, $hover-bg-top, $hover-border, $focus-bg-top and
     // $focus-border has the same HSL as the primary color except the L
     // component is 4% lower.
-    @include button-variant($bg-top: #0078bb, $bg-bottom: #006ba7, $border: #006ba7, $text: #fff, $hover-bg-bottom: #0078bb, $hover-bg-top: #006ba7, $hover-border: #006ba7, $hover-text: #fff, $focus-bg-bottom: #0078bb, $focus-bg-top: #006ba7, $focus-border: #006ba7, $focus-text: #fff);
+    @include button-variant($bg-top: #327395, $bg-bottom: #2D6786, $border: #2D6786, $text: #fff, $hover-bg-bottom: #327395, $hover-bg-top: #2D6786, $hover-border: #2D6786, $hover-text: #fff, $focus-bg-bottom: #327395, $focus-bg-top: #2D6786, $focus-border: #2D6786, $focus-text: #fff);
 }
 
 #site-logo {
-    background-image: url('/cobrands/hylte/images/Hylte kommun logotyp.svg') !important;
+    background-image: url('/cobrands/bengtsfors/images/logo.gif') !important;
 }
 
 .nav-menu a:hover {
@@ -27,7 +27,7 @@
 
 #nav-link {
     // The deepblue color
-    background-color: #0078bb;
+    background-color: #327395;
 }
 
 #report-cta {

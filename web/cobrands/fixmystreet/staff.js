@@ -138,10 +138,14 @@ fixmystreet.staff_set_up = {
             $phoneInput.val('-').prop('disabled', true);
             $showNameCheckbox.prop('checked', true).prop('disabled', true);
 
-            if (fixmystreet.cobrand !== 'fixamingata' && fixmystreet.cobrand !== 'hylte') {
-              $addAlertCheckbox.prop('checked', false).prop('disabled', true);
+            if (
+                fixmystreet.cobrand !== "bengtsfors" &&
+                fixmystreet.cobrand !== "fixamingata" &&
+                fixmystreet.cobrand !== "hylte"
+            ) {
+                $addAlertCheckbox.prop("checked", false).prop("disabled", true);
             } else {
-              $addAlertCheckbox.prop('checked', true).prop('disabled', false);
+                $addAlertCheckbox.prop("checked", true).prop("disabled", false);
             }
         }
     });
